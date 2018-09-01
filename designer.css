@@ -1,0 +1,43 @@
+ 
+ /* Dispositivos extra pequenos (telefones, menor que 600px) */
+@media only screen and (max-width: 600px) {
+    .exemplo {background:pink;}
+} h1 {outline: dotted blue;
+    
+}
+
+/* Dispositivos pequenos (Tablets e telefones grandes, maior que 600px) */
+@media only screen and (min-width: 600px) {
+    .exemplo {background:blue;}
+} h1 {outline: dotted red;
+    
+}
+
+/* Dispositivos médios (Tablets grandes, maior que 768px) */
+@media only screen and (min-width: 768px) {
+    .exemplo {background: forestgreen;}
+} h1 {outline: dotted red;
+
+}
+
+/* Dispositivos grandes (notebook/desktops, maior que 992px) */
+@media only screen and (min-width: 992px) {
+    .exemplo {background:tomato;}
+} h1 {outline: dotted red;
+    
+}
+
+/* Dispositivos extra grande (notebook/desktops/tv, maior que 1200px) */
+@media only screen and (min-width: 1200px) {
+    .exemplo {background:pink;}
+} h1 {outline: dotted red;
+    
+}
+
+
+.exemplo {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+} h1 h2{outline: dotted red;
+    
+}
